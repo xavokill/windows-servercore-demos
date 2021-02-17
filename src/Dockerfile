@@ -34,7 +34,7 @@ EXPOSE 80
 # -----------------------------
 ENV sql_express_download_url "https://go.microsoft.com/fwlink/?linkid=829176"
 
-ENV sa_password="Nissan2021" `
+ENV sa_password="_" `
     attach_dbs="[]" `
     ACCEPT_EULA="Y" `
     sa_password_path="C:\ProgramData\Docker\secrets\sa-password"
