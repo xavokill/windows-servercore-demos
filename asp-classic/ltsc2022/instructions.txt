@@ -1,0 +1,3 @@
+docker build --tag "xavokill/sandbox:iis-asp-clasic" .
+
+docker run -d -p 8000:80 --name "asp-clasic" xavokill/sandbox:iis-asp-clasic
